@@ -4,7 +4,7 @@ const pessoa = [
   { name: 'Bruno', idade: 24 }
 ];
 
-let res = document.querySelector('div#res')
+const res = document.querySelector('div#res')
 
 function somentenome() {
   for (let i = 0; i < pessoa.length; i++) {
