@@ -3,7 +3,8 @@ const pessoa = [
   { name: 'Caio', idade: 8 },
   { name: 'Bruno', idade: 24 }
 ];
-var res = document.querySelector('div#res')
+
+let res = document.querySelector('div#res')
 
 function somentenome() {
   for (let i = 0; i < pessoa.length; i++) {
