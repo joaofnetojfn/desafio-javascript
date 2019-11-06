@@ -4,12 +4,13 @@ let n = ' '
 
 function solSettime() {
   for (let i = 0; i < sol.length; i++) {
-    Promise.race([
+    Promise.all([
       new Promise((resolve) => {
         setTimeout(function () {
           n += sol[i]
-          resolve(res.innerHTML += n)
+          res.innerHTML += n
         }, 3000);
+        resolve()
       })
     ])
   }
