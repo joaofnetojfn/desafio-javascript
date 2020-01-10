@@ -1,0 +1,113 @@
+
+.margemElemntTitulo{
+    margin-left: 15px;
+}
+.margemElemnt{
+    margin-left: 25px;
+}
+#imgLogo{
+    width: 700px;
+    margin-left: 25%;
+    margin-top: -130px;
+}
+#desafioPalavra{
+    display: inline;
+    width: 110px;
+    margin: 90px 19px 6px 179px;
+}
+#tituloPag{
+
+    border-bottom-width:5px;
+    border-bottom-style:groove;
+    border-bottom-color:black;
+    
+}
+#conteudo{
+    border-bottom-width:5px;
+    border-bottom-style:groove;
+    border-bottom-color:black;
+}
+#logo{
+    width: 150px;
+}
+button{
+    display: inline ;
+    margin: 30px !important;
+    padding: 20px;
+    text-align: center;
+    border-width:5px;
+    border-style:double;
+    border-color:red;
+    width: 20%;
+}
+#resolucaoPrimeira{
+    height: 60px;
+    margin-top: 20px;
+    margin-bottom: 35px;
+    width: 100%; 
+    overflow: hidden;
+    text-overflow: clip; 
+    border: 1px solid #000000;
+    
+
+}
+#resolucaoPrimeira p{
+    display: inline;
+}
+
+#resolucaoSegunda{
+    height: 60px;
+    margin-top: 20px;
+    margin-bottom: 35px;
+    width: 100%; 
+    overflow: hidden;
+    text-overflow: clip; 
+    border: 1px solid #000000;
+}
+#resolucaoSegunda p{
+    display: inline;
+    
+
+}
+
+
+#resolucaoTerceira{
+    height: 60px;
+    margin-top: 20px;
+    margin-bottom: 35px;
+    width: 100%; 
+    overflow: hidden;
+    text-overflow: clip; 
+    border: 1px solid #000000;
+}
+#resolucaoTerceira p{
+    display: inline;
+    
+
+}
+
+
+#resolucaoQuarta{
+    
+    height: 60px;
+    margin-top: 20px;
+    margin-bottom: 35px;
+    width: 100%; 
+    overflow: hidden;
+    text-overflow: clip; 
+    border: 1px solid #000000;
+    
+
+}
+#resolucaoQuarta p{
+    display: inline;
+
+}
+
+
+
+#respostas h3{
+    margin-left: 50px;
+    width: 190px;
+    float: left;
+}
